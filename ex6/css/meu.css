@@ -1,0 +1,8 @@
+.container {/*elemento pai*/
+color: #900;/* a cor passa por herança*/
+border: 1px solid blue; /* a borda não passa herança*/
+}
+
+.inherit{color: inherit;border: inherit;}/* elemento filho do 2 paragrafo/
+.initial{color: initial   ;border: initial;}/* elemento filho do 3 paragrafo/
+.unset{color: unset;border: unset;}/* elemento filho do 4 paragrafo/

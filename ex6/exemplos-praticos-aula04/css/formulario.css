@@ -1,0 +1,27 @@
+
+/* aplica o estilo a todos as divs que são os filhas  
+diretas de #formulario*/
+#formulario > div{
+
+margin-top: 15px;
+width: 500px;
+margin-left: 20px;
+}
+
+/* Aplica o estilo a todos os inputs que
+ são os descendentes diretos ou indiretos de #formulario*/
+#formulario input{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#formulario input:hover{
+    background-color: darkgreen;
+}
+
+#dpessoal{
+background-color: cornflowerblue;
+}
+
+#mensagem{
+background-color:crimson;
+}

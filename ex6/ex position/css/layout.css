@@ -1,0 +1,60 @@
+#conteiner {    
+    height: 1000px;
+    width: 100%;
+    border-color: blue;
+    border-style:solid   ;    
+   }
+
+
+#ret1 {
+border-color: rgba(10, 10, 10, 0.877);
+background-color: rgba(10, 10, 10, 0.877);
+border-style:solid   ;
+position: absolute;
+top: 100px;
+left: 100px;
+height: 200px;
+width: 800px;
+}   
+ 
+#ret2 {
+    border-color:green;
+    color:green;
+    border-style:solid   ;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    height: 200px;
+    width: 800px;
+}
+
+
+#ret3 {
+    border-color:red;
+    color:red;
+    border-style:solid   ;
+    top: 700px;
+    left: 100px;
+    height: 200px;
+    width: 800px;
+    position: absolute;
+}
+
+#ret4 {
+    border-color:red;
+    background-color:yellow;        
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    
+}
+
+#ret5 {
+    border-color:red;
+    background-color:yellowgreen;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    left: 400px;
+    
+}
