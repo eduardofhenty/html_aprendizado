@@ -1,0 +1,84 @@
+.container {/*elemento pai*/
+    background-color:gainsboro;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+}
+
+#cabecalho  {
+    color:black ;
+    font-family: Arial;
+    font-size: 10px;       
+}
+
+#menu_horizontal {
+    background-color:black;
+    position: relative;
+    top:  100px;    
+    height:100px;
+    border-style:	solid;
+} 
+
+#menu_horizontal >a {
+    color:azure;
+} 
+
+#menu_horizontal >a:hover {
+    color:yellow;
+    font-size: large;    
+} 
+
+
+#barra_lateral {
+    background-color:whitesmoke;            
+    height: 650px ;
+    width: 350px;
+}   
+
+#conteudo_barra_lateral{
+    background-color:rgb(160, 160, 160);    
+    top:150px;
+    left: 25px;   
+    right: 25px;
+    position: relative;
+    padding: 10px;    
+    width: 250px;   
+}
+
+#conteudo_barra_lateral >p {
+    color: whitesmoke;
+}
+
+#conteudo_barra_lateral >p:hover {
+    color:yellow;
+    font-size: large;    
+}
+
+
+#rodape {
+    background-color:black;
+    top: 700px;
+    height: 100px;
+}
+#rodape > p {
+    color: white;
+}
+
+#formulario {
+    background-color:sandybrown;
+    margin-top: -50px;
+    margin-left: 350px;    
+    height: 650px;
+    width: 400px;
+}
+
+#formulario >p {
+    color: orange;
+} 
+
+#figura {
+    margin-left: 750px;
+    top: -650px;
+    position: relative;   
+ 
+}
