@@ -1,0 +1,107 @@
+body{
+    background-color:rgb(253, 253, 252);
+    text-align:center;
+    }
+    
+        #conteiner{
+        margin-top: 50px;
+                
+        }
+
+        
+
+        .div_cabecalho{
+            background-color:#86cffa;
+            text-align: left;
+            padding-top: 10px;
+            padding-bottom: 10px; 
+            width: 800px;
+            height: 90px;
+            font-family: Arial;
+            font-size: 30px;
+            font-style: italic;
+            color:black;
+            font-weight:bold;
+            border-style:	solid;
+            border-width:	10px;
+            border-color: aliceblue;            
+            }
+
+            #div_menuh{
+                text-align: left;
+                background-color:#86cffa;
+                width: 800px;
+                height: 30px;
+                font-family: Arial;
+                font-size: 14px;
+                color:black;
+                padding-top: 30px; 
+                padding-bottom: 30px; 
+                border-style:	solid;
+                border-width:	10px;
+                border-color: aliceblue;
+                }
+
+            #bar_vert{
+                text-align: center;
+                background-color:#86cffa;
+                width: 200px;
+                height: 300px;
+                font-family: Arial;
+                font-size: 14px;
+                color:black;      
+                float: left;         
+                padding-top: 60px; 
+                padding-bottom: 60px; 
+                border-style:	solid;
+                border-width:	5px;
+                border-color: aliceblue;
+                }   
+                
+                 
+
+            #div_art1{
+                text-align: center;
+                background-color:#86cffa;
+                width: 600px;
+                height: 150px;
+                font-family: Arial;
+                font-size: 14px;
+                color:black;    
+                float: left;         
+                padding-top: 30px; 
+                padding-bottom: 30px; 
+                border-style:	solid;
+                border-width:	5px;
+                border-color: aliceblue;
+                }           
+
+            #div_art2{
+                text-align: center;
+                background-color:#86cffa;
+                width: 600px;
+                height: 150px;
+                font-family: Arial;
+                font-size: 14px;
+                color:black;    
+                float: left;           
+                padding-top: 30px; 
+                padding-bottom: 30px; 
+                border-style:	solid;
+                border-width:	5px;
+                border-color: aliceblue;
+                } 
+
+            #div_rodape{
+                text-align: center;
+                background-color:#86cffa;
+                width: 800px;
+                height: 90px;
+                font-family: Arial;
+                font-size: 14px;
+                color:black;    
+                float: left;           
+                border-style:	solid;
+                border-width:	10px;
+                border-color: aliceblue;
+                }     
