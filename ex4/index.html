@@ -1,0 +1,72 @@
+<!-- index.html -->
+<!-- Um exemplo de formulario -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+  </head>
+  
+  <body>
+    <form align="center" action="pagina.html">
+        <!-- Primeiro field -->
+        <fieldset>
+            <label for="titulo_id">Título </label>
+            <input id="titulo_id" type="text" name="titulo" placeholder="Informe aqui"><br>
+            
+            <label for="nome_id">Nome </label>
+            <input id="nome_id" type="text" name="nome" placeholder="Usuário"> <br>
+            
+            <label for="tele_id">Telefone </label>
+            <input id="tele_id" type="tel" name="tele" placeholder="61 11112222"> (opcional) <br>
+            
+            <label for="mail_id">E-mail</label>
+            <input id="mail_id" type="email" name="mail" placeholder="foo@bar.com"> <br>
+            
+            <label for="site_id">Site</label>
+            <input id="site_id" type="url" name="site" placeholder="www.seusite.com"> (opcional) <br>
+
+            <label for="num_id">Num de itens</label>
+            <input type="number" name="Numero" id="num_id" min="1" max="10"> (1-10) <br>
+           
+            <label for="tam_id">Tamanho</label>
+            <input type="range" name="tamanho" id="tam_id" step="0.1"    > Tamannho 1m (incrementados em 10 cm) <br>
+
+            <label for="data_id">Data</label>
+            <input type="date" name="data" id="data_id" min="16-12-2020">(mínimo 16 Dezembro 2010) <br>
+
+            <label for="hora_id">Hora</label>
+            <input type="time" name="hora" id="hora_id">(incrementado em 30 min) <br>
+
+              
+              
+            <input type="button" value="Enviar">  
+
+
+        </fieldset>
+        <!-- Segundo field -->
+        <fieldset>            
+            <label for="pesq_id">Pesquisar</label>
+            <input id="pesq_id"	type="search"> <button>Ok</button>
+        
+
+
+
+        </fieldset>
+        <!-- Terceiro field -->
+        <fieldset>
+
+            <label for="progress_id">Progresso</label>
+            <progress> id="progress_id" </progress> <br>
+            <label for="progressdisc_id">Uso do disco</label>
+            <progress> id="progressdisc_id" value="85" max="100" </progress>
+
+
+
+        </fieldset>
+
+
+    </form>
+
+  </body>
+</html>
