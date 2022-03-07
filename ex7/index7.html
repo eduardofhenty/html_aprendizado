@@ -1,0 +1,80 @@
+<!-- index.html -->
+<!-- Exemplo com javascript apenas o primeiro pattern  funciona -->
+<!DOCTYPE html>
+<html>
+  <!-- Inicio do cabeçalho-->
+  <head>
+    <meta charset="utf-8">
+    <title>Página</title>
+    <link rel="stylesheet" type="text/css" href="css/meu 1.css">
+    <script language="javascript" src="script/script.js"></script>
+  </head>
+  <!-- Inicio do corpo -->
+  <body>
+         <!-- Incio do container  -->
+      <div class="container">
+        <div id="cabecalho"> <h1> Interface web</h1></div>
+
+        <div id="menu_horizontal">
+          <a href="http://">Inicio</a>
+          <a href="http://">Sobre</a>
+          <a href="http://">Contato</a>          
+        </div>  
+
+        <div id="barra_lateral">
+          <div id="conteudo_barra_lateral">
+            <p>Inicio </p> 
+            <p>Sobre</p>  
+            <p>Contato</p>  
+          </div>
+
+          <div id="formulario">          
+            <p><h1>Faça sua inscrição</h1> </p> 
+
+            <form align="center" action="pagina.html">
+             <fieldset>
+              
+              <label for="nome_id">Nome </label>
+              <input id="nome_id" type="text" name="nome" placeholder="Nome"  
+              pattern="[A-Za-z0-9]+"
+               > <br>            
+              <p id="msg_nome"></p>
+
+              <label for="mail_id">E-mail</label>
+              <input id="mail_id" type="email" name="mail" placeholder="email"
+              required="required"  > <br>
+              <p id="msg_mail"></p>
+
+              <label for="data_id">Enviar</label>
+              <input id="data_id"	type="datetime" placeholder="dd/mm/aaaa" required="required"
+              pattern="\\d{2}/\\d{2}/\\d{4}"> <br>
+              <p id="msg_data"></p>
+              
+              <input  type="button" value="Enviar" onclick="visualizardados();">         
+
+             </fieldset>
+          
+
+            </form>
+
+          </div>
+
+           <div id="figura"><img	src="img/img lateral.PNG"	alt="Imagem"   height="550px"></div>           
+
+        </div>    
+       
+
+
+        <div id="rodape">
+          <h3>Dados Enviados </h3>          
+          <p id="m_nome"></p>
+          <p id="m_mail"></p>
+          <p id="m_data"></p>          
+          
+        </div>
+
+          <!-- Fim da div conteiner -->
+      </div>    
+    
+  </body>
+</html>
