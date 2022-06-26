@@ -1,0 +1,159 @@
+.container {/*elemento pai*/
+    background-color:gainsboro;
+    height: 60px;
+    width: 100%;
+    text-align:center;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+#conteudo {
+    font-family: Arial;
+    font-size: 12px;  
+    position:  absolute ;
+    width: 70%;
+    top:  120px; 
+    left: 350px;
+    
+    padding: 10px;    
+}
+
+#conteudo  {
+    font-family: Arial;
+    font-size: 20px; 
+    text-align: justify;
+}
+
+
+#conteudo >p {
+    font-family: Arial;
+    font-size: 16px; 
+    text-align: justify;
+}
+
+#contato  {
+    font-family: Arial;
+    font-size: 12px; 
+    text-align: left;
+    position:  absolute ;
+    width: 70%;
+    top:  120px; 
+    left: 360px;
+}
+
+#cabecalho  {
+    color:black ;    
+    font-family: Arial;
+    font-size: 10px;       
+}
+
+#menu_horizontal {
+    background-color:black;
+    position: relative;
+    top:  20px;    
+    height:50px;
+    border-style:	solid;
+    font-size: 18px; 
+} 
+
+#menu_horizontal >a {
+    color:azure;
+} 
+
+#menu_horizontal >a:hover {
+    color:yellow;
+    font-size: large;    
+} 
+
+
+#barra_lateral {
+    background-color:whitesmoke;            
+    
+    height:  900px;
+    width: 350px;
+}   
+
+#barra_lateralold {
+    background-color:whitesmoke;            
+    
+    height: 750px;
+    width: 350px;
+}   
+
+
+
+#conteudo_barra_lateral{
+    
+    background-color:rgb(160, 160, 160);    
+    top:20px;
+    left: 25px;   
+    height: 100%;
+    right: 25px;
+    position: relative;
+    padding: 10px;    
+    width: 250px;   
+    overflow: auto;
+}
+
+.botao  {
+    background-color:rgb(160, 160, 160);    
+    
+    
+    height: 100%;    
+    position: relative;
+    
+    width: 250px;   
+    
+   
+}
+
+#conteudo_barra_lateral p  {
+   color: rgb(231, 226, 226);
+   border-bottom:	2px	solid	#333333;
+   width: 250px; 
+   height: 30px;
+   border-style: solid;
+   position: relative;
+   
+}
+
+#conteudo_barra_lateral >p:hover {
+    color:yellow;
+    font-size: large;   
+    
+}
+
+
+
+
+#conteudo_barra_lateral >a:hover {
+    color:yellow;
+    font-size: large;    
+    
+}
+
+#rodape1 {
+    background-color:black;
+    top: 960px;
+    height: 60px;
+    width: 100%;
+}
+
+#rodape {
+    background-color:black;
+    top: 96%;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+	bottom: 0;
+}
+#rodape > p {
+    color: white;
+}
+

@@ -1,0 +1,179 @@
+.container {/*elemento pai*/
+    background-color:gainsboro;
+    min-height:2000px;  
+    min-width: 1600px;
+    text-align:center;
+    position:relative;
+    display: flex; /*Item obrigatorio*/
+    flex-flow: column;     
+    flex-wrap:wrap;    
+}
+
+
+.cabecalho  {
+    color:black ;    
+    background-color:rgb(81, 192, 114);
+    font-family: Arial;
+    font-size: 10px;       
+    
+}
+.rodape {
+    background-color:rgb(182, 144, 94);
+    top: 96 hv ;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+	bottom: 0;    
+}
+
+
+/* No meio há seis boxs com cores laranja */
+.meio {
+    position:  relative; 
+    border-color: rgb(208, 255, 0);
+    border-style: solid;    
+    min-height: 1000px;
+    min-width: 1000px;
+    display: flex;  
+    flex-wrap:wrap;    
+}
+
+/* Especificações das seis caixas onde estão os itens */
+/*Elementos box1 sem qualquer opção, por padrão flex-direction:row */
+.box1  {
+    position:  relative ; 
+    border-color: orangered;
+    border-style: solid;    
+    min-height: 500px;
+    width: 500px;
+    display: flex;    
+}
+
+.box2 {
+    position:  relative ; 
+    border-color: orangered;
+    border-style: solid;    
+    min-height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction:column;
+    
+}
+/*Pula linha*/
+.box3 {
+    position:  relative ; 
+    border-color: orangered;
+    border-style: solid;    
+    min-height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction:row;    
+    flex-wrap:wrap;
+}
+.box4 {
+    position:  relative ; 
+    border-color: orangered;
+    border-style: solid;    
+    min-height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction:row;
+    
+    flex-wrap:wrap;
+}
+
+.box5 {
+    position:  relative ; 
+    border-color: orangered;
+    border-style: solid;    
+    min-height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction:row;    
+    flex-wrap:wrap;
+}
+
+.box6 {
+    position:  relative ; 
+    border-color: orangered;
+    border-style: solid;    
+    min-height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction:row;    
+    flex-wrap:wrap;
+    align-items:center;    
+}
+
+
+/* Especificações de cada item */
+.item1{
+    border-color: rgb(43, 255, 0);    
+}
+
+.item2{
+    border-color: rgb(74, 47, 226);    
+}
+
+.item3{
+    border-color: rgb(255, 0, 43);    
+}
+/* Algumas propriedades comuns */
+.item1, .item2, .item3{
+    border-style: solid;    
+    height: 100px;
+    width: 100px;
+    position: relative;    
+}
+
+.i1, .i2, .i3{
+    border-style: solid;    
+    width: 100px;
+    position: relative;    
+}
+
+.i1{
+    border-color: rgb(43, 255, 0);    
+    height: 200px;
+}
+
+.i2{
+    border-color: rgb(74, 47, 226);    
+    height: 150px;
+}
+
+.i3{
+    border-color: rgb(255, 0, 43);    
+    height: 50px;
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-size: larger;
+    break-after: always;
+}
+
+
+.flex-start {
+justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content:flex-end;
+}
+
+.center {
+    justify-content:center;
+}
+
+.space-beteween{
+    justify-content:space-between;
+}
+.space-around{
+    justify-content:space-around;
+}
+/*Alinhamento do conteudo a partir do fim. É preciso ter elementos para haver quebra de linha*/
+.align-content_flex-end {
+align-content: flex-end;
+}
