@@ -1,8 +1,9 @@
-# Exemplo de configruações com flexbox
-Uma página com seis caixas principais nos quais cada caixa contem
+# Exemplo de configruaÃ§Ãµes com flexbox
+Uma pÃ¡gina com seis caixas principais nos quais cada caixa contem
 itens diferente para testar o flexbox
 
-## Exemplo
+## Resultado
+https://github.com/eduardofhenty/html_aprendizado/blob/main/flexbox/Capturar.PNG
 
 
 ## Requisitos
