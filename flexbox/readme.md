@@ -1,4 +1,4 @@
-# Exemplo de configruações com flexbox
+# Exemplo de configurações com flexbox
 Uma página com seis caixas principais nos quais cada caixa contem
 itens diferente para testar o flexbox
 
